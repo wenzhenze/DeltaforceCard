@@ -541,7 +541,7 @@ class AutoTraderGUI:
         self.digit_templates.clear()
 
         for i in range(10):
-            path = f"{folder}/templates/{i}.png"
+            path = f"{folder}/{i}.png"    # 默认使用2K模板路径
             template = cv2.imread(path, 0)
             if template is None:
                 self.log(f"加载模板图片失败: {path}")
