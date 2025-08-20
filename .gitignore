@@ -1,0 +1,27 @@
+# 忽略 PyInstaller 构建目录
+build/
+dist/
+
+# 忽略 .spec 文件
+*.spec
+
+# 忽略其他常见构建文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略环境相关文件
+.venv/
+venv/
+env/
+.env
+
+# 忽略编辑器设置
+.vscode/
+.idea/
+
+# 忽略操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
